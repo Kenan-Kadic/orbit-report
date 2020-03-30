@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { OrbitListComponent } from './orbit-list/orbit-list.component';
+import { ShouldShowWarningDirective } from './should-show-warning.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OrbitListComponent
+    OrbitListComponent,
+    ShouldShowWarningDirective
   ],
   imports: [
     BrowserModule

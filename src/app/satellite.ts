@@ -13,6 +13,13 @@ export class Satellite {
         this.operational = operational;
 
     }
-
+    shouldShowWarning(): Boolean {
+        if(this.type.toUpperCase() === 'SPACE DEBRIS') {
+            return true; 
+        }
+        else {
+            return false;
+        }
+    }
 }
 
